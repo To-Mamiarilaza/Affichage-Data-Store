@@ -1,0 +1,106 @@
+body {
+  background-color: #000000;
+}
+
+/* FOR THE SIDEBAR */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background-color: #101010;
+  border-right: solid #202020;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.sidebar .sidebar-header {
+  margin-bottom: 40px;
+}
+.sidebar .sidebar-header .sidebar-title {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  color: #fdb927;
+}
+.sidebar .sidebar-header .sidebar-title img {
+  width: 100px;
+  height: 100px;
+}
+.sidebar .sidebar-link-group {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 24px;
+  color: #fdb927;
+}
+.sidebar .sidebar-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  text-decoration: none;
+  color: #b1b1b1;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+.sidebar .sidebar-link:hover {
+  color: #552583;
+}
+.sidebar .sidebar-link:active {
+  color: #552583;
+}
+
+/* DESIGN FOR THE CONTENT */
+.content {
+  margin-left: 250px;
+  padding: 20px 50px;
+}
+.content h1 {
+  font-size: 25px;
+  color: rgb(227, 227, 227);
+}
+.content hr {
+  color: rgb(227, 227, 227);
+}
+.content .btn-warning {
+  background-color: #fdb927;
+}
+.content .btn-secondary {
+  background-color: #552583;
+  border-color: #552583;
+}
+.content .btn-outline-secondary {
+  background-color: transparent;
+  border-color: #552583;
+}
+
+.text-overflow-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 60% !important;
+}
+
+.pagination .page-item .page-link {
+  background-color: #000000;
+  border-color: #552583;
+  color: rgb(227, 227, 227);
+}
+.pagination .page-item .page-link:hover {
+  background-color: #202020;
+}
+.pagination .page-item .active {
+  background-color: #552583;
+}/*# sourceMappingURL=template.css.map */
