@@ -1,5 +1,6 @@
 .cover {
   margin-bottom: 40px;
+  cursor: pointer;
 }
 .cover h4 {
   color: rgb(227, 227, 227);
@@ -15,4 +16,30 @@
 
 .categorie-filter button {
   width: 80px;
+}
+
+.film-about {
+  max-width: 60%;
+}
+.film-about h4 {
+  color: white;
+}
+.film-about h4 .annee {
+  color: rgb(227, 227, 227);
+  font-size: 14px;
+}
+.film-about .caracteristique {
+  color: white;
+  font-size: 14px;
+}
+.film-about .synopsis {
+  color: rgb(227, 227, 227);
+  font-size: 14px;
+}
+.film-about .cover-image {
+  padding: 0 7%;
+}
+.film-about .cover-image img {
+  width: 100%;
+  height: 400px;
 }/*# sourceMappingURL=film-list.css.map */

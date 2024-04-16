@@ -48,7 +48,7 @@
             <i class="fas fa-video me-4"></i>
             <div class="link-name">Studio</div>
         </a>
-        
+
         <!-- FORMATION CATEGORY -->
         <a class="sidebar-link-group" href="">
             <div class="link-name">Formations</div>
@@ -111,140 +111,148 @@
             <button class="btn btn-outline-secondary btn-sm">Animé</button>
         </div>
 
+        <!-- MODAL A PROPOS D'UN FILM -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog film-about mw-50 modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-warning fs-5" id="exampleModalLabel">A props du film</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body row">
+                        <div class="col-md-6 ps-5">
+                            <div class="title d-flex justify-content-between align-items-center">
+                                <h4 class="mb-0">Tech Mavericks <br> <span class="annee">2024</span></h4>
+                                <button class="btn btn-outline-warning btn-sm"><i
+                                        class="fas fa-compact-disc"></i></button>
+                            </div>
+
+                            <div class="synopsis mt-4">
+                                Dunkirk est un film de guerre réalisé par Christopher Nolan, sorti en 2017. Il retrace
+                                l'évacuation de Dunkerque pendant la Seconde Guerre mondiale. Le film est divisé en
+                                trois
+                                parties, chacune se déroulant sur terre, dans les airs et sur mer, et suivant différents
+                                personnages.
+                                Sur terre, des soldats britanniques tentent de survivre sur la plage de Dunkerque,
+                                encerclés.
+                            </div>
+
+                            <hr>
+                            <div class="d-flex caracteristique mt-3">
+                                <div class="me-3">Film</div>
+                                <div class="me-3">Saison 2</div>
+                                <div class="me-3 w-60 text-overflow-hidden">ACTION | HISTOIRE | COMEDIE</div>
+                            </div>
+
+                            <div class="d-flex mt-4">
+                                <button class="btn btn-warning me-4 px-5">Modifier</button>
+                                <button class="btn btn-secondary">Supprimer</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 cover-image">
+                            <img src="../assets/images/cover-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- LISTES DES FILMS -->
         <div class="row mt-4">
 
             <div class="col-md-3">
                 <div class="cover">
-                    <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
-                        <div class="film-type text-overflow-hidden">Dessin animé</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2024</div>
-                        <div class="me-3 w-40"><strong>Saison 2</strong></div>
-                        <div class="me-3 text-overflow-hidden">
-                            ACTION | COMEDIE | HISTOIRE
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
+                        <div class="d-flex justify-content-between align-items-end mt-3">
+                            <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
+                            <div class="film-type text-overflow-hidden">Dessin animé</div>
                         </div>
-                    </div>
+                        <div class="film-categorie mt-2 d-flex">
+                            <div class="me-3">2024</div>
+                            <div class="me-3 w-40"><strong>Saison 2</strong></div>
+                            <div class="me-3 text-overflow-hidden">
+                                ACTION | COMEDIE | HISTOIRE
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="cover">
-                    <img src="../assets/images/cover-3.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Fright Night</h4>
-                        <div class="film-type text-overflow-hidden">Série</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2008</div>
-                        <div class="me-3 w-40"><strong>Saison 2</strong></div>
-                        <div class="me-3 text-overflow-hidden">
-                            ACTION | COMEDIE | HISTOIRE
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
+                        <div class="d-flex justify-content-between align-items-end mt-3">
+                            <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
+                            <div class="film-type text-overflow-hidden">Dessin animé</div>
                         </div>
-                    </div>
+                        <div class="film-categorie mt-2 d-flex">
+                            <div class="me-3">2024</div>
+                            <div class="me-3 w-40"><strong>Saison 2</strong></div>
+                            <div class="me-3 text-overflow-hidden">
+                                ACTION | COMEDIE | HISTOIRE
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="cover">
-                    <img src="../assets/images/cover-2.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Love motion</h4>
-                        <div class="film-type text-overflow-hidden">Film</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2024</div>
-                        <div class="me-3 text-overflow-hidden">
-                            ROMANTIQUE | AMOUR
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
+                        <div class="d-flex justify-content-between align-items-end mt-3">
+                            <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
+                            <div class="film-type text-overflow-hidden">Dessin animé</div>
                         </div>
-                    </div>
+                        <div class="film-categorie mt-2 d-flex">
+                            <div class="me-3">2024</div>
+                            <div class="me-3 w-40"><strong>Saison 2</strong></div>
+                            <div class="me-3 text-overflow-hidden">
+                                ACTION | COMEDIE | HISTOIRE
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="cover">
-                    <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
-                        <div class="film-type text-overflow-hidden">Dessin animé</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2024</div>
-                        <div class="me-3 w-40"><strong>Saison 1</strong></div>
-                        <div class="me-3 text-overflow-hidden">
-                            FRISSON | HORREUR
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
+                        <div class="d-flex justify-content-between align-items-end mt-3">
+                            <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
+                            <div class="film-type text-overflow-hidden">Dessin animé</div>
                         </div>
-                    </div>
+                        <div class="film-categorie mt-2 d-flex">
+                            <div class="me-3">2024</div>
+                            <div class="me-3 w-40"><strong>Saison 2</strong></div>
+                            <div class="me-3 text-overflow-hidden">
+                                ACTION | COMEDIE | HISTOIRE
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="cover">
-                    <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
-                        <div class="film-type text-overflow-hidden">Dessin animé</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2024</div>
-                        <div class="me-3 w-40"><strong>Saison 2</strong></div>
-                        <div class="me-3 text-overflow-hidden">
-                            ACTION | COMEDIE | HISTOIRE
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
+                        <div class="d-flex justify-content-between align-items-end mt-3">
+                            <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
+                            <div class="film-type text-overflow-hidden">Dessin animé</div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="cover">
-                    <img src="../assets/images/cover-3.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Fright Night</h4>
-                        <div class="film-type text-overflow-hidden">Série</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2008</div>
-                        <div class="me-3 w-40"><strong>Saison 2</strong></div>
-                        <div class="me-3 text-overflow-hidden">
-                            ACTION | COMEDIE | HISTOIRE
+                        <div class="film-categorie mt-2 d-flex">
+                            <div class="me-3">2024</div>
+                            <div class="me-3 w-40"><strong>Saison 2</strong></div>
+                            <div class="me-3 text-overflow-hidden">
+                                ACTION | COMEDIE | HISTOIRE
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="cover">
-                    <img src="../assets/images/cover-2.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Love motion</h4>
-                        <div class="film-type text-overflow-hidden">Film</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2024</div>
-                        <div class="me-3 text-overflow-hidden">
-                            ROMANTIQUE | AMOUR
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="cover">
-                    <img src="../assets/images/cover-1.jpg" class="w-100" height="300" alt="">
-                    <div class="d-flex justify-content-between align-items-end mt-3">
-                        <h4 class="mb-0 w-60 text-overflow-hidden">Cover versions</h4>
-                        <div class="film-type text-overflow-hidden">Dessin animé</div>
-                    </div>
-                    <div class="film-categorie mt-2 d-flex">
-                        <div class="me-3">2024</div>
-                        <div class="me-3 w-40"><strong>Saison 1</strong></div>
-                        <div class="me-3 text-overflow-hidden">
-                            FRISSON | HORREUR
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 

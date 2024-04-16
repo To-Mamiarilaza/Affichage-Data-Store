@@ -74,6 +74,12 @@ body {
   background-color: transparent;
   border-color: #552583;
 }
+.content .text-warning {
+  color: #fdb927 !important;
+}
+.content .text-secondary {
+  color: #552583 !important;
+}
 
 .text-overflow-hidden {
   overflow: hidden;
@@ -103,4 +109,11 @@ body {
 }
 .pagination .page-item .active {
   background-color: #552583;
+}
+
+.modal-dialog .modal-content {
+  background-color: #101010;
+}
+.modal-dialog .modal-content .modal-header {
+  border-bottom: solid 1px rgba(227, 227, 227, 0.207);
 }/*# sourceMappingURL=template.css.map */
