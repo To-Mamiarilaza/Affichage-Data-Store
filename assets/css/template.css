@@ -101,14 +101,14 @@ body {
 
 .pagination .page-item .page-link {
   background-color: #000000;
-  border-color: #552583;
+  border-color: white;
   color: rgb(227, 227, 227);
 }
 .pagination .page-item .page-link:hover {
   background-color: #202020;
 }
 .pagination .page-item .active {
-  background-color: #552583;
+  background-color: #202020;
 }
 
 .modal-dialog .modal-content {
@@ -116,6 +116,16 @@ body {
 }
 .modal-dialog .modal-content .modal-header {
   border-bottom: solid 1px rgba(227, 227, 227, 0.207);
+}
+
+table .table-warning td {
+  background-color: rgba(253, 185, 39, 0.231372549);
+}
+table tr {
+  border: #202020;
+}
+table td {
+  color: white;
 }
 
 form .form-control, form .form-select {
@@ -127,6 +137,9 @@ form .form-control:focus, form .form-select:focus {
   border-color: #fdb927;
   color: rgb(227, 227, 227);
   box-shadow: 0 0 0 0.25rem rgba(253, 185, 39, 0.1019607843);
+}
+form .form-control:disabled {
+  background-color: rgba(32, 32, 32, 0.5529411765);
 }
 form .form-label {
   color: white;

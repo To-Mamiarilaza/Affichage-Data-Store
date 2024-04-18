@@ -121,7 +121,7 @@ body {
   .page-item {
     .page-link {
       background-color: #000000;
-      border-color: #552583;
+      border-color: white;
       color: rgb(227, 227, 227);
     }
 
@@ -130,7 +130,7 @@ body {
     }
 
     .active {
-      background-color: #552583;
+      background-color: #202020;
     }
   }
 }
@@ -145,6 +145,22 @@ body {
   }
 }  
 
+table {
+  .table-warning {
+    td {
+      background-color: #fdb9273b;
+    }
+  }
+
+  tr {
+    border: #202020;
+  }
+
+  td {
+    color: white;
+  }
+}
+
 form {
   .form-control, .form-select {
     background-color: #000000;
@@ -156,6 +172,11 @@ form {
     border-color: #fdb927;
     color: rgb(227, 227, 227);
     box-shadow: 0 0 0 0.25rem #fdb9271a;
+  }
+
+  .form-control:disabled {
+    background-color: #2020208d;
+
   }
 
   .form-label {

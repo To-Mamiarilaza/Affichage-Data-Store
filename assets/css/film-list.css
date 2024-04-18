@@ -32,6 +32,15 @@
   color: white;
   font-size: 14px;
 }
+.film-about .film-genre {
+  font-size: 12px;
+}
+.film-about .film-genre span {
+  padding-left: 10px;
+  margin-right: 10px;
+  border-left: solid 1px #fdb927;
+  width: 90px;
+}
 .film-about .synopsis {
   color: rgb(227, 227, 227);
   font-size: 14px;
